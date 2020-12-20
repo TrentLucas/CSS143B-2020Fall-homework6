@@ -46,13 +46,6 @@ public class ArrayDictionary implements Dictionary {
     @Override
     public void remove(String key) {
         // homework
-        for (int i = 0; i < entries.length; i++) {
-            if (!(entries[i] == null)) {
-                if (entries[i].key.equals(key)) {
-                    entries[i] = entries[i].next;
-                }
-            }
-        }
     }
 
     @Override
